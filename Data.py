@@ -3,62 +3,51 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = """
-Hey {}
+    START = """ʜᴇʏ {}  
 
-Welcome to {}
+ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {}  
 
-I can download profile pictures, videos, images and reels from instagram along with post caption.
-You can also authorize me to download private posts.
+ɪ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴘʀᴏғɪʟᴇ ᴘɪᴄᴛᴜʀᴇs, ᴠɪᴅᴇᴏs, ɪᴍᴀɢᴇs ᴀɴᴅ ʀᴇᴇʟs ғʀᴏᴍ ɪɴsᴛᴀɢʀᴀᴍ ᴀʟᴏɴɢ ᴡɪᴛʜ ᴘᴏsᴛ ᴄᴀᴘᴛɪᴏɴ. ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴀᴜᴛʜᴏʀɪᴢᴇ ᴍᴇ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴘʀɪᴠᴀᴛᴇ ᴘᴏsᴛs.  
 
-Use below buttons to learn more.
-
-By @StarkBots
+ᴜsᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ.
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton(text="ʀᴇᴛᴜʀɴ ʜᴏᴍᴇ 🚧", callback_data="home")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("ʙᴏᴛ sᴛᴀᴛᴜs ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛs 🤖", url="https://t.me/GroupDcBots/7286")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ⚡", callback_data="help"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ 🎯", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🙈 ", url="https://t.me/Groupdc")],
     ]
 
     # Help Message
     HELP = """
-1) **Images, Videos and Reels**
-Send the link here to get the post contents including caption.
+𝟷) **ɪᴍᴀɢᴇs, ᴠɪᴅᴇᴏs ᴀɴᴅ ʀᴇᴇʟs** sᴇɴᴅ ᴛʜᴇ ʟɪɴᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴘᴏsᴛ ᴄᴏɴᴛᴇɴᴛs ɪɴᴄʟᴜᴅɪɴɢ ᴄᴀᴘᴛɪᴏɴ.  
 
-2) **Profile Pictures**
-Use the command `/profile_pic` or `/dp` along with instagram username to get its profile picture.
-Example : `/dp StarkProgrammer`
+𝟸) **ᴘʀᴏғɪʟᴇ ᴘɪᴄᴛᴜʀᴇs** ᴜsᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ `/profile_pic` ᴏʀ `/dp` ᴀʟᴏɴɢ ᴡɪᴛʜ ɪɴsᴛᴀɢʀᴀᴍ ᴜsᴇʀɴᴀᴍᴇ ᴛᴏ ɢᴇᴛ ɪᴛs ᴘʀᴏғɪʟᴇ ᴘɪᴄᴛᴜʀᴇ. ᴇxᴀᴍᴘʟᴇ : `/dp ciniedits`  
 
-3) **Private Posts**
-Authorize the bot to download private posts. Use /auth
+𝟹) **ᴘʀɪᴠᴀᴛᴇ ᴘᴏsᴛs** ᴀᴜᴛʜᴏʀɪᴢᴇ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴘʀɪᴠᴀᴛᴇ ᴘᴏsᴛs. ᴜsᴇ /auth  **ɴᴏᴛᴇ** : sᴛᴏʀɪᴇs ᴀɴᴅ ɪɢᴛᴠ ᴀʀᴇ ɴᴏᴛ sᴜᴘᴘᴏʀᴛᴇᴅ.  
 
-**Note** : Stories and IGTV are not supported.
-
-Use /auth to authorize and /unauth to unauthorize.
+ᴜsᴇ /auth ᴛᴏ ᴀᴜᴛʜᴏʀɪᴢᴇ ᴀɴᴅ /unauth ᴛᴏ ᴜɴᴀᴜᴛʜᴏʀɪᴢᴇ.
 """
 
     # About Message
-    ABOUT = """
-**About This Bot** 
+    ABOUT = """**ᴀʙᴏᴜᴛ ᴛʜɪs ʙᴏᴛ**   
 
-A telegram bot to download instagram content by @StarkBots
+ᴀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ɪɴsᴛᴀɢʀᴀᴍ ᴄᴏɴᴛᴇɴᴛ ʙʏ @sᴛᴀʀᴋʙᴏᴛs  
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/InstagramBot)
+sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://github.com/selfie-bd/InstagramBot)  
 
-Framework : [Pyrogram](docs.pyrogram.org)
+ғʀᴀᴍᴇᴡᴏʀᴋ : [ᴘʏʀᴏɢʀᴀᴍ](http://docs.pyrogram.org/)  
 
-Language : [Python](www.python.org)
+ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](http://www.python.org/)  
 
-Developer : @StarkProgrammer
+ᴅᴇᴠᴇʟᴏᴘᴇʀ : @GroupDcBots
     """
