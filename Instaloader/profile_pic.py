@@ -27,7 +27,7 @@ async def dp(_, msg):
     files = os.listdir(text.lower())
     for file in files:
         if file.endswith(".jpg"):
-            caption = f"Profile Picture of [@{text}](https://instagram.com/{text}) \n\n⚡ By @Groupdcbots"
+            caption = f"Profile Picture of [@{text}](https://instagram.com/{text}) \n\n⚡ By @cs_cloud"
             await msg.reply_photo(f"{text}/{file}", caption=caption)
             await status.delete()
     shutil.rmtree(text)
