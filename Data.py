@@ -19,12 +19,12 @@ class Data:
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("ʙᴏᴛ sᴛᴀᴛᴜs ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛs 🤖", url="https://t.me/GroupDcBots/7286")],
+        [InlineKeyboardButton("Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ  🤖", url="https://t.me/cs_cloud")],
         [
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ⚡", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ 🎯", callback_data="about")
         ],
-        [InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🙈 ", url="https://t.me/Groupdc")],
+        [InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🥰 ", url="https://t.me/discuss_group_cs")],
     ]
 
     # Help Message
@@ -41,13 +41,13 @@ class Data:
     # About Message
     ABOUT = """**ᴀʙᴏᴜᴛ ᴛʜɪs ʙᴏᴛ**   
 
-ᴀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ɪɴsᴛᴀɢʀᴀᴍ ᴄᴏɴᴛᴇɴᴛ ʙʏ @sᴛᴀʀᴋʙᴏᴛs  
+ᴀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ɪɴsᴛᴀɢʀᴀᴍ ᴄᴏɴᴛᴇɴᴛ ʙʏ @cs_cloud  
 
-sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://github.com/selfie-bd/InstagramBot)  
+Oᴡɴᴇʀ ✨ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/iAmLiKu1)  
 
 ғʀᴀᴍᴇᴡᴏʀᴋ : [ᴘʏʀᴏɢʀᴀᴍ](http://docs.pyrogram.org/)  
 
 ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](http://www.python.org/)  
 
-ᴅᴇᴠᴇʟᴏᴘᴇʀ : @GroupDcBots
+ᴅᴇᴠᴇʟᴏᴘᴇʀ : @cs_cloud
     """
